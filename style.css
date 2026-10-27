@@ -5,7 +5,6 @@ body {
     padding: 30px;
 }
 
-/* Q5 */
 .titre-formulaire {
     text-align: center;
     color: #1f4e79;
@@ -14,7 +13,7 @@ body {
     margin-bottom: 25px;
 }
 
-/* Q6 */
+
 form {
     max-width: 1200px;
     margin: auto;
@@ -24,13 +23,13 @@ form {
     box-shadow: 0 2px 10px #cccccc;
 }
 
-/* Q7 */
+
 .groupes {
     display: flex;
     gap: 20px;
 }
 
-/* Q8 */
+
 fieldset {
     flex: 1;
     border: 1px solid #cccccc;
@@ -39,14 +38,14 @@ fieldset {
     margin: 5px;
 }
 
-/* Q9 */
+
 legend {
     color: #1f4e79;
     font-weight: bold;
     font-size: 18px;
 }
 
-/* Q10 */
+
 label {
     display: block;
     margin-top: 12px;
@@ -54,7 +53,7 @@ label {
     font-weight: bold;
 }
 
-/* Q11 */
+
 input[type="text"],
 input[type="email"],
 input[type="password"],
@@ -72,7 +71,7 @@ textarea {
     margin-bottom: 10px;
 }
 
-/* Q12 */
+
 input:focus,
 select:focus,
 textarea:focus {
@@ -81,48 +80,48 @@ textarea:focus {
     background-color: #f8fbff;
 }
 
-/* Q13 */
+
 ::placeholder {
     color: #999999;
 }
 
-/* Q14 */
+
 .sous-titre {
     font-weight: bold;
     margin-top: 15px;
 }
 
-/* Q15 */
+
 .choix {
     display: flex;
     gap: 20px;
 }
 
-/* Q16 */
+
 .choix label {
     font-weight: normal;
     margin-top: 5px;
 }
 
-/* Q17 */
+
 .choix-colonne {
     flex-direction: column;
     gap: 4px;
 }
 
-/* Q18 */
+
 textarea {
     resize: vertical;
     min-height: 100px;
 }
 
-/* Q19 */
+
 .boutons {
     text-align: center;
     margin-top: 25px;
 }
 
-/* Q20 */
+
 input[type="submit"],
 input[type="reset"] {
     border: none;
@@ -134,29 +133,29 @@ input[type="reset"] {
     font-size: 16px;
 }
 
-/* Q21 */
+
 input[type="submit"] {
     background-color: #13d830;
     font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* Q22 */
+
 input[type="reset"] {
     background-color: #f30707;
     font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* Q23 */
+
 input[type="submit"]:hover {
     background-color: #0b8f20;
 }
 
-/* Q24 */
+
 input[type="reset"]:hover {
     background-color: #b00000;
 }
 
-/* Q25 */
+
 @media (max-width: 850px) {
     .groupes {
         flex-direction: column;
